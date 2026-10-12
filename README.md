@@ -16,7 +16,7 @@ roi
 - "Interfaces" - This package contains core interfaces and launch and config files for the server and for general use
 
 roc
-: The RobOrg Infrastructure Team - Source
+: Infrastructure Team - Source
 - "Core" - This is the source for the core RobOrg server and UI
 
 rof
