@@ -7,42 +7,46 @@ by Steven Shafer and Xian Li
 
 ## CONTENTS
 This folder contains ROS Packages for RobOrg  
-- Source packages contain source code (Python or C++) for ROS Nodes  
-- Interface packages contain ROS interfaces, launch files, and config files  
-- Tools folders contain source code and other files not for ROS
+- *Source* packages contain source code (Python or C++) for ROS Nodes  
+- *Interface* packages contain ROS interfaces, launch files, and config files  
+- *Tools* folders contain source code and other files not for ROS
 
-roi
-: Infrastructure Team - Interfaces
-- "Interfaces" - This package contains core interfaces and launch and config files for the server and for general use
+**ro**
+: General Use - *Interfaces*
+- This package contains the launch files for general use
 
-roc
-: Infrastructure Team - Source
-- "Core" - This is the source for the core RobOrg server and UI
+**ro_i**
+: Infrastructure Team - *Source*
+- Source for the core RobOrg server and for the UI framework
 
-rof
-: Fleet Management Team - Source
+**ro_ii**
+: Infrastructure Team - *Interfaces*
+- Core interfaces, launch files, and config files
 
-rof_i
-: Fleet Management Team - Interfaces
+**ro_f**
+: Fleet Management Team - *Source*
 
-rot
-: Task Assignment Team - Source
+**ro_fi**
+: Fleet Management Team - *Interfaces*
 
-rot_i
-: Task Assignment Team - Interfaces
+**ro_t**
+: Task Assignment Team - *Source*
 
-rom
-: Map Server Team - Source
+**ro_ti**
+: Task Assignment Team - *Interfaces*
 
-rom_i
-: Map Server Team - Interfaces
+**ro_m**
+: Map Server Team - *Source*
 
-rom_t
-: Map Server Team - Tools
+**ro_mi**
+: Map Server Team - *Interfaces*
+
+**ro_mt**
+: Map Server Team - *Tools*
 - Here is the tool for converting CAD files to the robot map
 
-ror
-: Robot Team - Source
+**ro_r**
+: Robot Team - *Source*
 
-ror_i
-: Robot Team - Interfaces
+**ro_ri**
+: Robot Team - *Interfaces*
