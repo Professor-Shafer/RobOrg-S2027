@@ -35,6 +35,12 @@ This folder contains ROS Packages for RobOrg
 **ro_ti**
 : Task Assignment Team - *Interfaces*
 
+**ro_x**
+: Task Execution Team - *Source*
+
+**ro_xi**
+: Task Execution Team - *Interfaces*
+
 **ro_m**
 : Map Server Team - *Source*
 
